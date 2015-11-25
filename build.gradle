@@ -8,12 +8,13 @@ buildscript {
     }
     dependencies {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
-        classpath 'com.bertramlabs.plugins:asset-pipeline-gradle:2.1.1'
+        classpath 'com.bertramlabs.plugins:asset-pipeline-gradle:2.5.0'
+        classpath "org.grails.plugins:hibernate:4.3.10.5"
     }
 }
 
 plugins {
-    id "io.spring.dependency-management" version "0.5.1.RELEASE"
+    id "io.spring.dependency-management" version "0.5.2.RELEASE"
 }
 
 version "0.1"
